@@ -1,206 +1,100 @@
-# 🚀 私域引流宝
+# 引流宝2.3.0
 
-👋 私域引流宝致力于为个人、团队提供基于微信私域流量的推广、引流的效率工具。可减轻人力，有效降低资源损失、流量流失的几率。引流宝完全开源，免费，可商用、可任意二次开发。引流宝可以辅助你更好地开展营销活动推广！降低运营成本，提高工作效率，获取更多资源。
+👋 引流宝致力于为个人、团队提供基于微信私域流量的推广、引流的效率工具。可减轻人力，有效降低资源损失、流量流失的几率。引流宝完全开源，免费，可商用、可任意二次开发。引流宝可以辅助你更好地开展营销活动推广！降低运营成本，提高工作效率，获取更多资源。
+<br/><br/>
+👉 群活码使用场景：<br/>
+微信群二维码有效期是7天，7天后二维码过期无法扫码进群，或者是群人数满200人就无法扫码进群。如果在推广的时候，群满人或者过期了，别人还想进群，我们将会失去很多推广资源。所以有了 **`群活码`**，可在不更换链接和二维码的前提下，切换扫码后显示的内容，保证你推广出去的二维码或链接可以持续为你提供引流效果！<br/><br/>
 
-<br>
+👉 客服码使用场景：<br/>
+当你的工作需要同时给不同的人对接客户数据，又要保证大家对接的频率、次数、效果保持平均，中途如果需要增加或者减少对接人，客服码就可以解决这个问题。客服码可以让一个人先对接你设置的人数，自动轮到下一个人对接，也就是阈值展示二维码，当你的二维码达到扫码最大值，就轮到下一个人的展示。当然也可以随机展示。<br/><br/>
 
-# 🌐 服务器推荐
+👉 短网址使用场景：<br/>
+生成的短网址可以控制其访问权限，例如仅限在微信内访问，或者不能在微信访问，或者仅限电脑浏览器访问，仅限安卓手机访问，仅限苹果手机访问。短链接在推广活动中，有着精简而不简单的作用，你还可以有完全控制权。<br/><br/>
 
-**免备案（香港、美国）** <br>
+![ylb](https://p0.meituan.net/dpmerchantpic/7c65fbbb4614748eedb6243b2649fde191004.jpg%40200w_200h_1e_1l)
 
-👉 https://www.rainyun.com/TANKING_
-<br>
+# 演示站（2.1.0）
 
-**需备案（中国大陆）** <br>
+登录地址：[https://u.ur1.shop/console/index/](https://u.ur1.shop/console/index/) <br/>
+登录账号：yinliubao <br/>
+登录密码：yinliubao666 <br/>
 
-👉 京东云：https://3.cn/2aTdZ-o4 <br>
-👉 腾讯云：https://curl.qcloud.com/jjU77TKa <br>
-👉 阿里云：https://t.aliyun.com/U/wgSNSS <br>
+# 更新日志
+![](https://img.shields.io/badge/Version-2.3.0-brightgreen.svg)<br/>
+版本：2.3.0<br/>
+更新摘要：<br/>
+1. 2.2.0更新摘要：<br/>
+2. 优化升级<br/>
+3. 首页优化<br/>
+4. 优化外部跳微信<br/>
+5. 新增用户组<br/>
+6. 新增域名用户组授权<br/>
+7. 首页新增近7天IP数据<br/>
+8. 新增分享卡片的认证号模式、Safari分享模式<br/>
+9. 2.3.0更新摘要：新增插件中心
 
+# 全新安装
 
-# 🌟 特色功能
-
-- 🏷️ 群活码
-- 💬 客服码
-- 🔗 渠道码
-- 📱 短网址
-- 🛒 淘宝客中间页
-- 🌍 微信外链
-- 🎥 抖音卡片
-- 📤 微信分享卡片
-
-<br>
-
-# ❓️ 如何下载源码？
-
-![](http://p19.qhimg.com/t11a4d74fff1baf758532e4c023.jpg)
-
-# 💰 付费插件&功能&服务
-
-- liKeYun微信赞赏码支付系统：
-https://afdian.com/item/df9b9590a8ab11ef952152540025c377
-
-- liKeYun付费进群插件：
-https://afdian.com/item/ae376a2a44ff11ef9b1f52540025c377
-
-- 微信外链（抖音卡片）插件：
-https://afdian.com/item/feeeef643d2b11ef9bf35254001e7c00
-
-- 域名检测任务插件：
-https://afdian.com/item/6e6c8d08cb3211efb12052540025c377
-
-- 私域引流宝账号有效期及用户注册兑换码功能：
-https://ifdian.net/item/38402d64c20b11efb0515254001e7c00
-
-- 卡密分发小程序源码：
-https://afdian.com/item/270573e4f97d11eea18d5254001e7c00
-
-- **付费定制服务：**
-  - 付费定制插件；
-  - 付费基于引流宝新增功能或修改功能；
-  - 付费安装部署引流宝；
-  - 小红书私信跳转微信卡片；
-  - 请联系作者微信：sansure2016（备注：定制）
-    
-- **落地页链接制作：**
-- 支付宝直跳链接（即未被封禁），点击不会弹出 **[非官方网页]** 提示；
-- QQ直跳链接（即未被封禁），点击不会跳转到 **[已停止访问该网页]**；
-- 抖音直跳链接（即未被封禁），点击不会跳转到 **[继续访问]** 的中转页；
-
-# 🛠️ 技术栈
-
-<img src="https://p0.meituan.net/dpmerchantpic/7c65fbbb4614748eedb6243b2649fde191004.jpg" width="400" style="display:block;margin:10px auto;" />
-
-![](https://img.shields.io/badge/%E5%89%8D%E7%AB%AF-JQuery_3.6.0-f4db0b?logo=&logoColor=ffffff) ![](https://img.shields.io/badge/%E5%90%8E%E7%AB%AF-php_7.4.0-777bb3?logo=&logoColor=ffffff) ![](https://img.shields.io/badge/前端-Bootstrap_4.0-336c9f?logo=&logoColor=ffffff)
-
-<br>
-
-# 📅 更新日志
-
-![Version Badge](https://img.shields.io/badge/Version-2.4.6-brightgreen.svg)
-
-**2.4.5版本新特性：**
-- UI界面大量优化
-- 新增群活码并流
-- 新增短网址轮询域名
-- 外部跳微信抽离为插件
-- 群活码、客服码、渠道码整合到活码一栏
-- 用户账号注册功能
-- 渠道码新增操作系统渠道数据记录
-- 新增卡密分发小程序管理
-- 新增淘宝客轮播单页
-- 优化淘宝客中间页创建，抛弃接口自动解析，改为文案解析
-- 发布一个免费的插件（微信红域名强开插件），下载地址：https://likeyun.lanzout.com/icSWK2qa3jwd
-
-<br>
-
-# 📱 公众号
-
-![公众号](https://img10.360buyimg.com/imgzone/jfs/t1/145303/24/42799/5773/662f19e0Fe49e9666/ca57d11bc2c9de54.jpg)
-
-<br>
-
-# ⚙️ 全新安装
-
-访问 `install` 目录即可进入安装流程。
+访问 install 目录即可进入安装流程。<br/>
 
 示例：
 ```
 http://域名/install/
 ```
-安装成功后请删除 `/install/` 目录。
+安装成功后请删除 /install/ 目录。
 
-<br>
+# 版本升级
 
-# 🔄 版本升级
+**升级步骤如下：** <br/>
+1、升级前请备份好数据；<br/>
+2、备份 console/Db.php 这个文件；<br/>
+3、备份 console/upload/ 目录； <br/>
+4、下载新版本代码；<br/>
+5、将 console/Db.php 这个文件以及 console/upload/ 目录替换；<br/>
+6、访问install目录，选择你要升级的版本选项。<br/>
 
-**升级步骤：**
-1. 备份数据；
-2. 备份 `console/Db.php` 文件；
-3. 备份 `console/upload/` 目录；
-4. 下载新版本代码；
-5. 替换 `console/Db.php` 和 `console/upload/` 目录；
-6. 访问 `install` 目录，选择升级版本选项。
+# 使用说明
+https://docs.qq.com/doc/DREdWVGJxeFFOSFhI <br/><br/>
 
-<br>
+就算你是个小白0基础，没有服务器、没有域名，不会搭建服务器，不会搭建网站，使用指南中有个针对0基础的教程，看完就会了。
 
-# ⭐️ Star History
+# 开发程序语言
+前端：Bootstrap+jQuery<br/>
+后端：php+mySql
 
-[![Star History](https://api.star-history.com/svg?repos=likeyun/liKeYun_ylb&type=Date)](https://star-history.com/#likeyun/liKeYun_ylb&Date)
+![](https://img.shields.io/badge/PHP-7.4.0-brightgreen.svg) ![](https://img.shields.io/badge/Bootstrap-4.0-brightgreen.svg) ![](https://img.shields.io/badge/jQuery-3.6.0-brightgreen.svg)
 
-<br>
+# 使用
+管理后台路径：/console/index/<br/>
 
-# 📑 使用文档
+示例：
+```
+http://域名/console/index/
+```
 
-[https://docs.qq.com/doc/DREdWVGJxeFFOSFhI](https://docs.qq.com/doc/DREdWVGJxeFFOSFhI)
+# 功能
 
-即使你是小白，使用指南中也有0基础教程，按教程走就能轻松上手。
+![](https://img10.360buyimg.com/imgzone/jfs/t1/233199/35/5994/134735/656d5672F4ba6963b/db0916f3c068a009.png)
 
-<br>
+# 截图
+![](http://p16.qhimg.com/t01ca2ed59b763a1bfb.png)
+![](http://p15.qhimg.com/t019599cbc426929f9a.png)
+![](https://img10.360buyimg.com/imgzone/jfs/t1/197765/17/36238/50195/65228f7eF215bcec1/97e59f5307984043.jpg)
+![](https://img10.360buyimg.com/imgzone/jfs/t1/110256/29/28792/47096/65228f7fFbfdb108a/d1d784f3346504f9.jpg)
+![](http://p16.qhimg.com/t01d4a75eb6fd6bc298.png)
+![](http://p17.qhimg.com/t01a3926ae642b504d3.png)
+![](http://p17.qhimg.com/t01f585e4aaf3d72688.png)
+![](http://p16.qhimg.com/t01d9ac1e1e95beb4df.png)
+![](http://p18.qhimg.com/t01cefb50a561697059.png)
+![](http://p18.qhimg.com/t012556b585e563e2da.png)
+![](http://p19.qhimg.com/t011709a0f215d496c4.png)
+![](http://p15.qhimg.com/t01ff1e54444ff377a5.png)
 
-# 🛠️ 管理后台
-
-管理后台路径： `/console/index/`
-
-> 示例：`https://域名/console/index/`
-
-<br>
-
-# 🧩 功能一览表
-
-<img src="https://img10.360buyimg.com/imgzone/jfs/t1/208894/5/41649/168432/661f99cdFe7276d89/a8ea2fc7db99aa40.png" width="600" />
-
-<br>
-
-# 📸 后台截图
-
-![](https://img10.360buyimg.com/imgzone/jfs/t1/76614/2/26773/219673/66bb53d5F37bfedb5/d044ff9bcd4853d0.png)
-![](https://img20.360buyimg.com/imgzone/jfs/t1/191563/24/44191/58534/661a9ddbF5cfc547c/17ad9f196524cf63.jpg)
-![](https://img20.360buyimg.com/imgzone/jfs/t1/200610/12/41550/56663/661a9ddbFbd1bed37/c61186595872aa02.jpg)
-![](https://img20.360buyimg.com/imgzone/jfs/t1/228263/40/15024/53748/661a9ddaF22c7697d/972690898e4532fa.jpg)
-![](https://img10.360buyimg.com/imgzone/jfs/t1/229178/8/23346/61323/6690f1edF5b485911/99d793d77ceb3a9f.jpg)
-![](https://img20.360buyimg.com/imgzone/jfs/t1/217676/11/40259/86985/661a9ddeFdd8a2702/a2a9823bcfa0106e.jpg?1713020511515)
-![](https://img20.360buyimg.com/imgzone/jfs/t1/134110/23/41436/77328/661a9de0Fbfe14345/023b1bfc4cc4a872.jpg?1713020521891)
-![](https://img20.360buyimg.com/imgzone/jfs/t1/234089/31/15393/69706/661a9ddfF29f026cd/a9cc2eb6038304dc.jpg?1713020536505)
-![](https://img20.360buyimg.com/imgzone/jfs/t1/131277/30/41020/114973/661a9ddcF7f73a838/b4bad634ee39499d.jpg?1713020550421)
-
-<br>
-
-# ⏳ 域名定时检测
-
-免费开源版不带定时域名检测，这款的配置中心自带一个域名检测任务，你可以对指定的域名创建一个域名检测任务，通过宝塔面板的定时任务实现自动检测域名是否被微信拦截、封禁的情况，检测到被封可以收到通知。<br/><br/>
-![](https://img10.360buyimg.com/imgzone/jfs/t1/195926/10/46451/89427/666027a6Fa155b77c/cb560f8a85240bb2.jpg)
-![](https://img10.360buyimg.com/imgzone/jfs/t1/189615/4/45168/88627/666027a5F81d75fc4/c318b110eae48c37.jpg)
-
-<br>
-
-# 🔗 微信外链插件（可制作抖音卡片）
-
-微信外链，全称`微信外部引流链接`，是用于在微信之外平台（APP）进行推广的链接，主要方便在其他平台点击这个链接就可以快速跳转至微信内打开小程序展示二维码，方便客户扫码添加微信。
-
-功能：微信外链的功能就是制作一个可以在微信之外的其它平台跳转到微信的链接，这个链接点击后立马就可以快速跳转到微信并自动显示你的二维码给客户扫码。
-
-微信之外的平台：小红书、知乎、微博、抖音、快手、浏览器、Bilibili等。
-
-<img src="https://g.fp.ps.netease.com/cg-image/file/67b439f35aa4a4f342213c63qJ7aKLeD06" width="500" />
-
-此为收费插件，可以进入这个页面购买（点击->登录->再次点击这个链接->购买）：https://afdian.com/item/feeeef643d2b11ef9bf35254001e7c00
-
-<img src="https://pic1.afdiancdn.com/user/3411d956e91111edb35552540025c377/common/c2592f9f6a42135c219fe2151d192021_w1626_h792_s457.jpeg?imageView2/2/w/2000" width="800" />
-<img src="https://pic1.afdiancdn.com/user/3411d956e91111edb35552540025c377/common/a26bfd9124ffca58fbc0f9edafa3e7dd_w1085_h954_s356.jpeg?imageView2/2/w/2000" width="800" />
-<img src="https://pic1.afdiancdn.com/user/3411d956e91111edb35552540025c377/common/062c4dbeb5f3d10d8b1092b1102c7011_w1037_h879_s315.jpeg?imageView2/2/w/2000" width="800" />
-
-<br>
-
-# 💸 赞赏支持
-
-感谢对开源项目的支持！
-
+# 赞赏
+赞赏作者，支持长期维护开源项目。<br/><br/>
 <img src="http://p18.qhimg.com/t014667134b2634568a.jpg" width="400" />
 
-<br>
-
-**最新赞赏记录：**
+**最近一个月赞赏记录**
 
 | 用户昵称 | 赞赏渠道 | 赞赏金额 |
 | ----- | ----- | ----- |
@@ -234,44 +128,28 @@ http://域名/install/
 | 李来信 | 微信 | 20.00 |
 | 筱炯 | 微信 | 30.00 |
 
-<br>
-
-# 💬 交流群
-
-目前有12个交流群，以邀请方式加入<br/>
+# 交流群
+目前有7个交流群，以邀请方式加入<br/>
 如需进群请添加群主微信号<br/>
 微信号：sansure2016 <br/><br/>
-<img src="https://img.alicdn.com/imgextra/i3/724156739/O1CN01vCJ0E31zeW7quL3yr_!!724156739-0-chatting.jpg" width="320" /><br/><br/>
+<img src="http://p17.qhimg.com/t01c5795ee4423dba85.jpg" width="300" /><br/><br/>
 微信群日常活跃，高质量，没有广告，欢迎各位网友加入。<br/>
 
-<br>
-
-# 👨‍💻 作者
-
+# 作者
 Name：TANKING<br/>
 WeChat：sansure2016<br/>
 Blog：https://segmentfault.com/u/tanking<br/>
 From：Guangdong Canton<br/><br/>
-<img src="https://avatars.githubusercontent.com/u/24785420?v=4" style="border-radius:100px;width:150px;" />
+<img src="http://p18.qhimg.com/t01fa8997c05a7243cd.jpg" width="200" />
 
-<br>
-
-# 📂 旧版下载
-
+# 旧版
 1.3.0：https://likeyun.lanzout.com/i4doR0jhtw8b <br/>
 2.0.0：https://likeyun.lanzout.com/imKAq143yfkd <br/>
 2.1.0：https://likeyun.lanzout.com/iyh7l1gm5iyh <br/>
 2.2.0：https://likeyun.lanzout.com/igRQG1iw53xi <br/>
-2.3.0：https://likeyun.lanzout.com/iRwGW1uzuqtc <br/>
 
-<br>
+# 开源协议
+![](https://img.shields.io/badge/开源协议-MIT-brightgreen.svg) 该软件遵循MIT开源协议。
 
-# 📜 开源协议
-
-![](https://img.shields.io/badge/开源协议-MIT-brightgreen.svg) 
-
-<br>
-
-# ⚠️ 提醒
-
+# 提醒
 该软件仅适用于辅助日常工作，提高工作效率，减轻人力。请勿用于诈骗、黑灰产业，如有此类行为，后果自负。

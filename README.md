@@ -10,7 +10,7 @@
 
 # 私域引流宝会员版（更适合运营的版本）
 
-<img src="https://pic1.afdiancdn.com/user/3411d956e91111edb35552540025c377/common/91be548b87c82e417ef92b5e45dc76a5_w2560_h3443_s2041.jpeg?imageView2/2/w/1280" width="700" />
+<img src="https://github.com/likeyun/likeyun.github.io/blob/master/ylbvip.jpg?raw=true" width="700" />
 
 👉点击了解：[https://viusosibp88.feishu.cn/docx/LdVddso2xo5CIRxPEnscHmmunNc](https://viusosibp88.feishu.cn/docx/LdVddso2xo5CIRxPEnscHmmunNc)
 <br>

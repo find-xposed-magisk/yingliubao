@@ -18,7 +18,7 @@
         
         // 已登录
         // 接收参数
-    	$zm_id = trim($_GET['zm_id']);
+    	$zm_id = intval(trim($_GET['zm_id']));
     	
         // 过滤参数
         if(empty($zm_id) || $zm_id == '' || $zm_id == null || !isset($zm_id)){
@@ -50,13 +50,14 @@
             $find_zminfo = $huoma_kf_zima->find($where_zminfo);
             
             // kf_id
-            $kf_id = json_decode(json_encode($find_zminfo))->kf_id;
+            $kf_id = intval(json_decode(json_encode($find_zminfo))->kf_id);
             
             // 2 根据kf_id获取到用户（可能是封装的PDOClass有缺陷，所以这里使用mysqli原生对象去获取kf_creat_user）
-            $find_kf_creat_user = "SELECT * FROM huoma_kf WHERE kf_id='$kf_id'";
-            
+            $stmt = $conn->prepare("SELECT * FROM huoma_kf WHERE kf_id=?");
+            $stmt->bind_param("s", $kf_id);
+            $stmt->execute();
             // kf_creat_user
-            $kf_creat_user = json_decode(json_encode($conn->query($find_kf_creat_user)->fetch_assoc()))->kf_creat_user;
+            $kf_creat_user = json_decode(json_encode($stmt->get_result()->fetch_assoc()))->kf_creat_user;
             
             // 判断操作权限
             if($kf_creat_user == $LoginUser){
@@ -82,21 +83,14 @@
                         $result = array(
                             'code' => 200,
                             'msg' => '重置成功',
-                            'kf_id' => $kf_id // 返回kf_id用于刷新二维码列表
+                            'kf_id' => htmlspecialchars((string)$kf_id, ENT_QUOTES, 'UTF-8') // 返回kf_id用于刷新二维码列表
                         );
                     }else{
                         
-                        // 解析报错信息
-                        $errorInfo = json_decode(json_encode($resetKfzm,true))[2];
-                        if(!$errorInfo){
-                            
-                            // 如果没有报错信息
-                            $errorInfo = '未知';
-                        }
                         // 删除失败
                         $result = array(
                             'code' => 202,
-                            'msg' => '重置失败，原因：'.$errorInfo
+                            'msg' => '重置失败'
                         );
                     }
                 }
@@ -121,6 +115,6 @@
     }
 
 	// 输出JSON
-	echo json_encode($result,JSON_UNESCAPED_UNICODE);
+	echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT);
 	
 ?>

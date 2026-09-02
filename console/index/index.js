@@ -389,12 +389,12 @@ function projectInfo(){
     </div>
     </a>
     
-    <a href="https://github.com/likeyun/liKeYun_Ylb" class="openResourceCard-a" target="_blank">
+    <a href="https://ad.ch-at.pw" class="openResourceCard-a" target="_blank">
     <div class="openResourceCard">
-        <div class="icon"><img src="../../static/img/github-icon.png" /></div>
+        <div class="icon"><img src="https://p4.ssl.qhimg.com/t11b673bcd6bf1bf2b68061bd91.png" /></div>
         <div class="info">
-            <span class="title">源码下载</span>
-            <span class="desc">前往github下载免费源码</span>
+            <span class="title">GPT镜像，plus代充，codex中转站</span>
+            <span class="desc">点击即可免费解锁体验最强大的Ai</span>
         </div>
         <div class="go"></div>
     </div>
